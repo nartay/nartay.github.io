@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto";
+    color: #c4c4c4;
+    background-color: #181818;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 45px;
+    margin-right: 60px;
+    margin-bottom: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #c4c4c4;
+    letter-spacing: 0.205em;
+}
+
+.nav .nav-item a {
+    margin-left: 40px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 420px;
+}
+
+.logo-azza {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 190px;
+}
+
+img {
+    position: relative;
+}
+
+.about-links {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
