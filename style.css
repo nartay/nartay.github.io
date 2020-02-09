@@ -55,4 +55,19 @@ img {
     font-size: 24px;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-col {
+    width: 50%;
+    height: 900px;
+}
+
+.about-col-right {
+    background-color: #363636;
 }
